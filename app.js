@@ -16,7 +16,7 @@ function removeGif() {
  * Accepts gif url, and appends gif to DOM element.
  */
 function showGif(gif) {
-  $DISPLAY.append($(`<img src="${gif}" placeholder="gif">`));
+  $DISPLAY.append($(`<img src="${gif}" height="400" placeholder="gif">`));
 }
 
 /**
